@@ -274,7 +274,6 @@ body .sub-main .lodging img {
   margin: auto;
 }
 body footer {
-  display: block;
   background-color: #f9e7dc;
 }
 body footer img {
@@ -282,7 +281,4 @@ body footer img {
   height: 15rem;
   object-fit: cover;
   object-position: right top;
-}
-body footer a {
-  margin: 2rem;
 }
