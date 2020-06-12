@@ -127,7 +127,7 @@ table {
   border-spacing: 0;
 }
 .Plan-sub-main {
-  width: 800px;
+  width: 90%;
   margin: auto;
   text-align: center;
 }
@@ -142,11 +142,10 @@ table {
   text-align: center;
   padding: 0 0 4rem 0;
 }
-.Plan-sub-main ol {
-  font-weight: bold;
+ol {
   padding: 3rem;
   color: white;
-  background-color: #ddb9a3;
+  background-color: #e4a14a;
 }
 @font-face {
   font-family: 'Chelsea Market';
@@ -240,7 +239,7 @@ body .main-text P {
   margin: auto;
   color: white;
   background-color: #ddb9a3;
-  height: 3rem;
+  height: auto;
   width: 90%;
   padding: 0.8rem;
   text-align: center;
