@@ -1,0 +1,154 @@
+@import "reset.less";
+@import "Plan Your Trip.less";
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+body {
+  font-family: "Roboto Mono";
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+
+    .coral {
+      background-color: #ff764e;
+      transition: 0.4s;
+    }
+
+    .coral:hover{
+          background: #aa432b;
+          color:greenyellow ;
+           }
+
+    .light-teal {
+      background-color: #5ed3eb;
+      transition: 0.4s;
+    }
+
+    .light-teal:hover{
+        background: blueviolet;
+          color:blanchedalmond ;
+           }
+    
+    .sand {
+      background-color: #ffcd69;
+      transition: 0.4s;
+    }
+
+    .sand:hover{
+        background: orange;
+          color:blueviolet ;
+           }
+        
+
+    a {
+      padding: 1rem;
+      width: 7rem;
+      text-align: center;
+      border-radius: 1rem;
+      color: white;
+      text-decoration: none;
+
+    
+    }
+  }
+
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    
+    p{
+        padding:.5rem;
+    }
+
+    .heading-img {
+      img {
+        object-fit: cover;
+        border-radius: 36rem;
+        padding: 1rem;
+        height: 15rem;
+        width: auto;
+      }
+    }
+
+    .heading-text {
+      text-align: center;
+      height: 15rem;
+      padding: 0.6rem;
+
+      h1 {
+        font-size: 3rem;
+        padding: 1.5rem;
+        font-family: "Chelsea Market";
+      }
+      .bottom-text {
+        margin: auto;
+        width: 250px;
+      }
+    }
+  }
+
+  .main-text {
+    padding: 1rem;
+    P {
+      margin: auto;
+      color: white;
+      background-color: #ddb9a3;
+      height: auto;
+      width: 90%;
+      padding: 0.8rem;
+      text-align: center;
+    }
+  }
+
+  .sub-main {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 20rem;
+
+    .fire {
+      display: flex;
+      flex-direction: column;
+      padding:4rem 0 4rem 0;
+
+      .imp-bold-text {
+        font-weight: bold;
+      }
+      img {
+          padding:0 0 1rem 0;
+        width: 10rem;
+        margin: auto;
+      }
+    }
+
+    .lodging {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2rem 0 6rem 0;
+
+      img {
+        width: 10rem;
+        margin: auto;
+      }
+    }
+  }
+
+ 
+  footer {
+    
+    background-color: #f9e7dc;
+
+    img {
+      width: 100%;
+      height: 15rem;
+      object-fit: cover;
+      object-position: right top;
+    }
+   
+  }
+}

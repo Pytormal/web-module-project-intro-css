@@ -1,0 +1,284 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.Plan-sub-main {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.Plan-sub-main div {
+  margin: auto;
+}
+.Plan-sub-main .map {
+  margin: 0 auto;
+  padding: 3rem;
+}
+.Plan-sub-main p {
+  text-align: center;
+  padding: 0 0 4rem 0;
+}
+ol {
+  padding: 3rem;
+  color: white;
+  background-color: #e4a14a;
+}
+@font-face {
+  font-family: 'Chelsea Market';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Chelsea Market'), local('ChelseaMarket-Regular'), url(https://fonts.gstatic.com/s/chelseamarket/v7/BCawqZsHqfr89WNP_IApC8tzKBhl.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIghM.ttf) format('truetype');
+}
+body {
+  font-family: "Roboto Mono";
+}
+body nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+body nav .coral {
+  background-color: #ff764e;
+  transition: 0.4s;
+}
+body nav .coral:hover {
+  background: #aa432b;
+  color: greenyellow ;
+}
+body nav .light-teal {
+  background-color: #5ed3eb;
+  transition: 0.4s;
+}
+body nav .light-teal:hover {
+  background: blueviolet;
+  color: blanchedalmond ;
+}
+body nav .sand {
+  background-color: #ffcd69;
+  transition: 0.4s;
+}
+body nav .sand:hover {
+  background: orange;
+  color: blueviolet ;
+}
+body nav a {
+  padding: 1rem;
+  width: 7rem;
+  text-align: center;
+  border-radius: 1rem;
+  color: white;
+  text-decoration: none;
+}
+body header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+body header p {
+  padding: 0.5rem;
+}
+body header .heading-img img {
+  object-fit: cover;
+  border-radius: 36rem;
+  padding: 1rem;
+  height: 15rem;
+  width: auto;
+}
+body header .heading-text {
+  text-align: center;
+  height: 15rem;
+  padding: 0.6rem;
+}
+body header .heading-text h1 {
+  font-size: 3rem;
+  padding: 1.5rem;
+  font-family: "Chelsea Market";
+}
+body header .heading-text .bottom-text {
+  margin: auto;
+  width: 250px;
+}
+body .main-text {
+  padding: 1rem;
+}
+body .main-text P {
+  margin: auto;
+  color: white;
+  background-color: #ddb9a3;
+  height: auto;
+  width: 90%;
+  padding: 0.8rem;
+  text-align: center;
+}
+body .sub-main {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 20rem;
+}
+body .sub-main .fire {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0 4rem 0;
+}
+body .sub-main .fire .imp-bold-text {
+  font-weight: bold;
+}
+body .sub-main .fire img {
+  padding: 0 0 1rem 0;
+  width: 10rem;
+  margin: auto;
+}
+body .sub-main .lodging {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0 6rem 0;
+}
+body .sub-main .lodging img {
+  width: 10rem;
+  margin: auto;
+}
+body footer {
+  background-color: #f9e7dc;
+}
+body footer img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  object-position: right top;
+}
